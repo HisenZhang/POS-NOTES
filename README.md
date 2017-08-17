@@ -272,9 +272,7 @@ Linux shell（比如Bash）接收或发送序列和字符串流*stream*形式的
 ~$ cat file
 ```
 
-运行结果截图:
 
-![1501086378049](/home/hisenzhang/Documents/DEV-A/POS/pics/1501086378049.png)
 
 **解释:** 相当于把文件CAL的内容作为rev的标准输入,再把rev的标准输出作为cowsay的标准输入...以此类推.最后把输出重定向到文件,我们发现,这个pipeline的本质是读取一个文件,对其进行某种加工,最终再写回文件的操作.
 
